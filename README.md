@@ -19,10 +19,10 @@ I have always wondered how the trip estimate fare has been generated in the app 
 
 ### Technical Aspect
 
-1. Used sklearn RandomForestRegressor as the final model for this problem.
-1. GridSearchCV was used to find the optimisation of the model.
-1. seaborn library used to visualise the data.
-1. Pandas library used to load the data from the csv file and other operations.
+* Used sklearn RandomForestRegressor as the final model for this problem.
+* GridSearchCV was used to find the optimisation of the model.
+* seaborn library used to visualise the data.
+* Pandas library used to load the data from the csv file and other operations.
 
 ### Requirements
 
