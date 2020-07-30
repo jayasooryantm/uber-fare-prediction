@@ -39,8 +39,8 @@ You can use the __UberFarePredictor.pkl__ file to predict the fare.
 ```
 import pickle
 with open('UberFarePredictor.pkl', 'rb') as f:
-model = pickle.load(f)
-model.predict(<x_values>)
+  model = pickle.load(f)
+  model.predict(<x_values>)
 ```
 
 ### Technologies Used
