@@ -13,10 +13,6 @@
 
 This is a basic regression model to predict the fare of the uber ride trained on top of Sklearn RandomForestRegressor model. The model would take the different trip parameters (number of passengers, pick up and drop off geographical coordinates, date and time of the trip) as the input and predict the fare amount as output. The model has been trained with 2 lakh records and acquired an R2 score of 0.968.
 
-### Motivation
-
-I have always wondered how the trip estimate fare has been generated in the app as soon as we choose our destination. While doing my ML studies I have stumbled upon the uber fare dataset. I couldn't wait to see that working for real and started working on that.
-
 ### Technical Aspect
 
 * Used sklearn RandomForestRegressor as the final model for this problem.
